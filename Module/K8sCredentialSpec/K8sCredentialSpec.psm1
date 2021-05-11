@@ -61,7 +61,7 @@ function New-KubernetesCredentialSpec {
         Guid               = $computerDomain.ObjectGUID  #GUID
         MachineAccountName = $AccountName #Username of the GMSA account
         NetBiosName        = $computerDomain.NetBIOSName  #NETBIOS Domain Name
-        Sid                = $gmsaAccount.SID.Value #SID of GMSA
+        Sid                = $computerDomain.DomainSID.Value #SID of Domain
       }
     }
   }
