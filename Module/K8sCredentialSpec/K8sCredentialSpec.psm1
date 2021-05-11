@@ -1,3 +1,4 @@
+# requires -Modules ActiveDirectory
 function New-KubernetesCredentialSpec {
 
   <#
