@@ -2,7 +2,7 @@
 
 @{
     RootModule        = '.\K8sCredentialSpec.psm1'    
-    ModuleVersion     = '1.0.0'
+    ModuleVersion     = '1.0.1'
     GUID              = '656806a4-7ade-4c95-9b63-80ea7ba2634f'
     Author            = 'Stanislaw Wozniak'
     CompanyName       = 'Evops Limited'
@@ -45,7 +45,7 @@
     # NestedModules = @()
     
     # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
-    FunctionsToExport = 'New-CredentialSpec'
+    FunctionsToExport = 'New-KubernetesCredentialSpec'
     
     # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
     CmdletsToExport   = @()
