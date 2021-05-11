@@ -37,7 +37,7 @@ function New-KubernetesCredentialSpec {
     apiVersion = "windows.k8s.io/v1alpha1"
     kind       = "GMSACredentialSpec"
     metadata   = @{
-      name = "$($computerDomain.NetBIOSName)-${AccountName}"  #This is an arbitrary name but it will be used as a reference
+      name = "$($computerDomain.NetBIOSName)-${AccountName}".ToLower()  #This is an arbitrary name but it will be used as a reference
     }
     credspec   = [ordered]@{
       ActiveDirectoryConfig = @{

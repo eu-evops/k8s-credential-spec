@@ -2,7 +2,7 @@
 
 @{
     RootModule        = '.\K8sCredentialSpec.psm1'    
-    ModuleVersion     = '1.0.2'
+    ModuleVersion     = '1.0.3'
     GUID              = '656806a4-7ade-4c95-9b63-80ea7ba2634f'
     Author            = 'Stanislaw Wozniak'
     CompanyName       = 'Evops Limited'
