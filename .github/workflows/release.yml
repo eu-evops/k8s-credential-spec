@@ -15,4 +15,4 @@ jobs:
           NUGET_KEY: ${{ secrets.NUGET_TOKEN }}
         shell: pwsh
         run: |
-          Publish-Module -Path ./Module/K8sCredentialSpec -NuGetApiKey $env:NUGET_KEY -Verbose
+          Publish-Module -Path ./Module/K8sCredentialSpec -NuGetApiKey $env:NUGET_TOKEN -Verbose
